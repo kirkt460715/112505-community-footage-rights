@@ -17,5 +17,14 @@
       "down": false,
       "received": true
     }
+  },
+  {
+    "operation": "hold-distribution",
+    "recipient": "festival-feed",
+    "delivery": "applied",
+    "receipt": {
+      "delivery": "d-11",
+      "down": true
+    }
   }
 ]

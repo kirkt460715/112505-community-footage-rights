@@ -93,7 +93,26 @@
   },
   "partners": [
     "county-feed",
-    "museum-feed"
+    "museum-feed",
+    "festival-feed"
   ],
-  "activity_day": "2028-10-03"
+  "activity_day": "2028-10-03",
+  "delivery_scope": [
+    {
+      "from": "county-feed",
+      "to": "museum-feed",
+      "edit": "mix-a",
+      "use": "highlights",
+      "can_forward": false
+    }
+  ],
+  "direct_permissions": [
+    {
+      "person": "p-3",
+      "channel": "museum-feed",
+      "version": "mix-b",
+      "use": "highlights",
+      "until": "2028-11-01"
+    }
+  ]
 }
