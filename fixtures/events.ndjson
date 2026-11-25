@@ -1,0 +1,4 @@
+{"cursor": 1, "source": "publication", "minute": 10, "payload": {"edit": "mix-a", "channel": "county-feed", "delivery": "d-08", "state": "accepted"}}
+{"cursor": 2, "source": "rights", "minute": 29, "payload": {"person": "p-3", "revoke": "highlights"}}
+{"cursor": 3, "source": "publication", "minute": 33, "payload": {"edit": "mix-a", "channel": "museum-feed", "delivery": "d-07", "published_at": 25}}
+{"cursor": 4, "source": "editing", "minute": 35, "payload": {"edit": "mix-b", "kind": "still", "version": "mix-b-still"}}

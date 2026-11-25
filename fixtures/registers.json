@@ -1,0 +1,99 @@
+{
+  "sources": {
+    "clip-1": {
+      "length_ms": 9000,
+      "faces": [
+        [
+          "p-3",
+          1000,
+          3000
+        ],
+        [
+          "p-7",
+          2200,
+          6200
+        ]
+      ]
+    },
+    "clip-2": {
+      "length_ms": 4000,
+      "faces": [
+        [
+          "p-7",
+          0,
+          2200
+        ]
+      ]
+    }
+  },
+  "permissions": [
+    {
+      "person": "p-3",
+      "uses": [
+        "highlights",
+        "internal"
+      ],
+      "until": "2028-12-31"
+    },
+    {
+      "person": "p-7",
+      "uses": [
+        "highlights",
+        "internal"
+      ],
+      "until": "2028-12-31"
+    }
+  ],
+  "edits": {
+    "mix-a": {
+      "kind": "video",
+      "uses": "highlights",
+      "spans": [
+        [
+          "clip-1",
+          1000,
+          6000
+        ],
+        [
+          "clip-2",
+          0,
+          2200
+        ]
+      ]
+    },
+    "mix-b": {
+      "kind": "video",
+      "uses": "highlights",
+      "spans": [
+        [
+          "clip-1",
+          1500,
+          2700
+        ]
+      ],
+      "verified_masks": [
+        [
+          "p-3",
+          1500,
+          2700
+        ]
+      ]
+    },
+    "draft-c": {
+      "kind": "still",
+      "uses": "poster",
+      "spans": [
+        [
+          "clip-1",
+          2000,
+          2001
+        ]
+      ]
+    }
+  },
+  "partners": [
+    "county-feed",
+    "museum-feed"
+  ],
+  "activity_day": "2028-10-03"
+}

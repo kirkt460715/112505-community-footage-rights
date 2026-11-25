@@ -1,0 +1,21 @@
+[
+  {
+    "operation": "hold-distribution",
+    "recipient": "county-feed",
+    "delivery": "applied",
+    "receipt": {
+      "delivery": "d-08",
+      "down": true
+    }
+  },
+  {
+    "operation": "hold-distribution",
+    "recipient": "museum-feed",
+    "delivery": "lost_reply",
+    "receipt": {
+      "delivery": "d-07",
+      "down": false,
+      "received": true
+    }
+  }
+]
