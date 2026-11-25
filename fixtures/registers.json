@@ -28,6 +28,7 @@
   },
   "permissions": [
     {
+      "authorization": "p-3-base",
       "person": "p-3",
       "uses": [
         "highlights",
